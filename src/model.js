@@ -1,7 +1,15 @@
-import image from './assets/image.png'
+import image from './assets/javascript.png'
 export const model = [
   {
-    type: 'title', value: 'Hello world from JS'
+    type: 'title', value: 'Constructor JavaScript for web sites', options: {
+      tag: 'h2',
+      styles: {
+        background: 'linear-gradient(to right, #ff1230, #483723)',
+        color: '#fff',
+        padding: '1.5rem',
+        'text-align': 'center'
+      }
+    }
   },
   {
     type: 'text', value: 'here we go with some text'

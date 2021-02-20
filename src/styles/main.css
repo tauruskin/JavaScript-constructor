@@ -1,12 +1,14 @@
 #app {
   position: relative;
 }
-
+ img {
+   border-radius: 20px;
+ }
 .content {
   position: absolute;
   top: 0;
   right: 0;
-  left: 200px;
+  left: 220px;
 }
 
 .sidebar {
