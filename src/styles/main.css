@@ -1,6 +1,9 @@
 #app {
   position: relative;
 }
+body {
+  overflow-x:hidden;
+}
  img {
    border-radius: 20px;  
  }
