@@ -1,10 +1,10 @@
 import image from './assets/javascript.png';
-import { Block } from './classes/blocks'
+import { TextBlock, ImageBlock, ColumnsBlock, TitleBlock } from './classes/blocks'
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, velit eos? Delectus possimus quae libero, reiciendis dicta quos fugiat laborum natus molestiae commodi atque ratione fugit voluptate, praesentium suscipit blanditiis, repellat vero tenetur explicabo accusantium eveniet voluptatum expedita autem quibusdam! Repellat, ut atque eius voluptatibus magni quidem doloribus iusto dolor praesentium aspernatur, blanditiis animi consequuntur illo tempore perspiciatis quasi ipsam. Fuga, esse assumenda harum vel quas, fugiat maiores minus quibusdam quos impedit rerum tenetur corporis molestiae, voluptatum asperiores iste aperiam aliquam saepe aut facere illo? Dolorem quis placeat eaque magni, culpa repudiandae laborum impedit reiciendis nam autem maxime nesciunt non?`
 
 export const model = [
-  new Block('title', 'Constructor JavaScript for web sites', {
+  new TitleBlock('Constructor JavaScript for web sites', {
     tag: 'h2',
     styles: {
       background: 'linear-gradient(to right, #FBD601, #CF5605)',
@@ -13,7 +13,7 @@ export const model = [
       'text-align': 'center'
     }
   }),
-  new Block('image', image, {
+  new ImageBlock(image, {
     styles: {
       padding: '2rem 0',
       display: 'flex',
@@ -25,7 +25,7 @@ export const model = [
     },
     alt: 'This is a JS image'
   }),
-  new Block('columns', [
+  new ColumnsBlock([
     'Приложение на чистом JS, без использования библиотек',
     'Приложение на чистом JS, без использования библиотек',
     'Приложение на чистом JS, без использования библиотек'
@@ -37,9 +37,9 @@ export const model = [
       'font-weight': 'bold'
     }
   }),
-  new Block('text', text, {
+  new TextBlock(text, {
     styles: {
-      background: 'linear-gradient(to bottom, #FBD601, #8e2df9)',
+      background: 'linear-gradient(to bottom, #FBD601, #A855BE)',
       padding: '1rem',
       'font-weight': 'bold'
     }
