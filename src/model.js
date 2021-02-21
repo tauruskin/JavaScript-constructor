@@ -7,7 +7,7 @@ export const model = [
   new TitleBlock('Constructor JavaScript for web sites', {
     tag: 'h2',
     styles: {
-      background: 'linear-gradient(to right, #FBD601, #CF5605)',
+      background: 'linear-gradient(to right, #1FC9FD, #FC0061)',
       color: '#fff',
       padding: '1.5rem',
       'text-align': 'center'
@@ -31,7 +31,7 @@ export const model = [
     'Приложение на чистом JS, без использования библиотек'
   ], {
     styles: {
-      background: 'linear-gradient(to bottom, #8e2de2, #4a00f0)',
+      background: 'linear-gradient(to bottom, #1FC9FD, #4218B8)',
       padding: '2rem',
       color: '#fff',
       'font-weight': 'bold'
@@ -39,7 +39,7 @@ export const model = [
   }),
   new TextBlock(text, {
     styles: {
-      background: 'linear-gradient(to bottom, #FBD601, #A855BE)',
+      background: 'linear-gradient(to bottom, #FFE53B, #00FFFF)',
       padding: '1rem',
       'font-weight': 'bold'
     }
